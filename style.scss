@@ -29,3 +29,20 @@ justify-content: space-around;
     text-align: center;
 }
 }
+
+main{
+    .banner{
+        width: 100vw;
+        @media (max-width:800px){
+            display: none;
+        }
+    }
+    secation{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .caixa1{
+        width: 30vw;
+    }
+}
