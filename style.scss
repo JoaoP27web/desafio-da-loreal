@@ -32,17 +32,28 @@ justify-content: space-around;
 
 main{
     .banner{
-        width: 100vw;
-        @media (max-width:800px){
+        width: 100%;
+        @media (max-width:880px){
             display: none;
+           
         }
     }
-    secation{
+    section{
         display: flex;
         align-items: center;
         justify-content: space-around;
+        margin-top: 30px;
+        @media (max-width:800px) {
+            flex-direction: column;
+        }
     }
     .caixa1{
         width: 30vw;
+        line-height: 25px;
+        text-align: center;
+        @media(max-width: 800px;){
+            width: 55vw;
+            text-align: center;
+        }
     }
 }

@@ -33,18 +33,25 @@ ul {
 }
 
 main .banner {
-  width: 100vw;
+  width: 100%;
 }
-@media (max-width: 800px) {
+@media (max-width: 880px) {
   main .banner {
     display: none;
   }
 }
-main secation {
+main section {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 30px;
+}
+@media (max-width: 800px) {
+  main section {
+    flex-direction: column;
+  }
 }
 main .caixa1 {
   width: 30vw;
+  @edia (ma);
 }/*# sourceMappingURL=style.css.map */
